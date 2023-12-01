@@ -14,8 +14,8 @@ a {
 ul {
   list-style: none;
 }
-li a{
-    color: white;
+li a {
+  color: white;
 }
 .active {
   color: #fc036b;
@@ -26,9 +26,11 @@ body,
 html {
   overflow-x: hidden;
 }
+
 /* Navbar */
 .navbar {
   position: absolute;
+  background-color: black;
   top: 0;
   left: 0;
   display: flex;
@@ -124,6 +126,44 @@ p {
 .events .ctn {
   margin-top: 30px;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-flex;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -0.5rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: #07121d;
+  list-style: none;
+  opacity: 0;
+  transform: translateY(-30px);
+  visibility: hidden;
+  transition: opacity 1s, transform 0.5s;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+
 /* Explore */
 .explore {
   width: 100%;
@@ -187,19 +227,7 @@ p {
 .content-col .ctn {
   margin-left: -100px;
 }
-.footer {
-  width: 100%;
-  min-height: 100px;
-  padding: 20px 80px;
-  margin: 0;
-  background: black;
-  text-align: center;
-}
-.footer p {
-  color: whitesmoke;
-  margin: 20px auto;
-  padding: 20px;
-}
+
 /* Contact Section */
 
 .contact {
@@ -207,7 +235,8 @@ p {
   flex-direction: column;
   box-sizing: border-box;
   padding: 0px;
-  background-color:black;
+  background-color: black;
+  margin-top: 50px;
 }
 
 .form {
@@ -246,37 +275,16 @@ p {
   box-shadow: 0 0 10px white;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-flex;
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin: 0;
+  background: black;
+  text-align: center;
 }
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  background-color: #07121d;
-  list-style: none;
-  opacity: 0;
-  transform: translateY(-30px);
-  visibility: hidden;
-  transition: opacity 1s, transform 0.5s;
-}
-
-.dropdown-menu a {
-  display: block;
-  padding: 0.5rem 0.5rem 2px 0.5rem;
-  color: white;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-  visibility: visible;
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px;
 }
