@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Ubuntu:wght@300&display=swap);
 
 /* Global */
 * {
@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Inter SemiBold 600', Ubuntu;
 }
 a {
   text-decoration: none;
@@ -35,7 +36,7 @@ html {
   left: 0;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
   color: whitesmoke;
 }
@@ -46,6 +47,11 @@ html {
 .nav-links li {
   margin: 0 30px;
 }
+
+.navbar h1{
+  left: 0;
+  position: absolute;
+  }
 
 header {
   width: 100vw;
@@ -80,7 +86,7 @@ header {
 .ctn {
   padding: 8px 15px;
   background: #fc036b;
-  border-radius: 3opx;
+  border-radius: 30px;
   color: whitesmoke;
 }
 .menu-btn {

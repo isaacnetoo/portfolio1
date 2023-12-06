@@ -1,5 +1,6 @@
 /* Google fonts */
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Ubuntu:wght@300&display=swap);
+
 /* Global */
 * {
   margin: 0;
@@ -29,13 +30,13 @@ html {
 
 /* Navbar */
 .navbar {
-  position: relative;
+  position: absolute;
   background-color: black;
   top: 0;
   left: 0;
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
   color: whitesmoke;
 }
@@ -45,11 +46,6 @@ html {
 }
 .nav-links li {
   margin: 0 30px;
-}
-
-.navbar h1{
-left: 0;
-position: absolute;
 }
 
 header {
@@ -97,77 +93,86 @@ header {
   cursor: pointer;
 }
 
-.everest {
-    width: 100%;
-    height: 100vh;
-    background-image:url(../img/mountain.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-
-.everest-content { 
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(5px);
-    color: black;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .everest-content h1 {
-    font-size: 7vmin;
-  }
-
-  .everest-content line {
-    margin-bottom: 50px;
-  }
-
-  .everest-content p {
-    color:black;
-  }
-
-  .everest-content .ctn {
-    margin-top: 40px;
-  }
-
- .flight {
-  width: 80%;
-  margin: 80px auto;
-}
-.title {
-  text-align: center;
-  font-size: 4vmin;
-  color: #49497e;
-}
-.row {
-  align-items: center;
+.walking {
   width: 100%;
-  justify-content: space-between;
+  height: 100vh;
+  background-image:url(../img/Three-walkers-enjoying-the-view-2000x1125.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
-.row .col {
+
+.walking-content { 
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  color: black;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
+
+.walking-content h1 {
+  font-size: 7vmin;
+}
+
+.walking-content line {
+  margin-bottom: 50px;
+}
+
+.walking-content p {
+  color:black;
+}
+
+.walking-content .ctn {
+  margin-top: 40px;
+}
+
+.flight {
+width: 80%;
+margin: 80px auto;
+}
+
+.title {
+text-align: center;
+font-size: 4vmin;
+color: #49497e;
+}
+
+.row {
+align-items: center;
+width: 100%;
+justify-content: space-between;
+}
+
+.row .col {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 .flight .row {
-  margin-top: 50px;
+margin-top: 50px;
 }
+
 h4 {
-  font-size: 3vmin;
-  color: #484872;
-  margin: 20px auto;
+font-size: 3vmin;
+color: #484872;
+margin: 20px auto;
 }
+
 p {
-  color: #7c7c7c;
-  padding: 0px 40px;
+color: #7c7c7c;
+padding: 0px 40px;
+margin: 20px auto;
 }
+
 .flight .ctn {
-  margin-top: 30px;
+margin-top: 30px;
 }
+
 
 .dropdown {
     position: relative;
@@ -218,4 +223,5 @@ p {
     margin: 20px auto;
     padding: 20px;
   }
+  
   
