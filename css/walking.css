@@ -239,31 +239,25 @@ margin-top: 30px;
     padding: 20px;
   }
 
-  /* Default styles */
-/* ... */
-
-/* Media query for tablet */
-@media screen and (max-width: 768px) {
-  /* Adjust styles for tablet devices here */
-  .navbar {
-      /* Example tablet styles for the navbar */
-      /* ... */
+/* Mobile view: Single column layout */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
   }
-
-  /* Adjust other elements' styles for tablet devices */
-  /* ... */
 }
 
-/* Media query for mobile devices */
-@media screen and (max-width: 480px) {
-  /* Adjust styles for mobile devices here */
-  .navbar {
-      /* Example mobile styles for the navbar */
-      /* ... */
+/* Tablet view: two columns */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
   }
+}
 
-  /* Adjust other elements' styles for mobile devices */
-  /* ... */
+/* Desktop view: three columns */
+@media (min-width: 901px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .animated-image {

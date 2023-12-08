@@ -292,6 +292,8 @@ p {
   box-shadow: 0 0 10px white;
 }
 
+/* Footer */
+
 .footer {
   width: 100%;
   min-height: 100px;
@@ -306,32 +308,27 @@ p {
   padding: 20px;
 }
 
-/* Default styles */
-/* ... */
-
-/* Media query for tablet */
-@media screen and (max-width: 768px) {
-  /* Adjust styles for tablet devices here */
-  .navbar {
-      /* Example tablet styles for the navbar */
-      /* ... */
+/* Mobile view: Single column layout */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
   }
-
-  /* Adjust other elements' styles for tablet devices */
-  /* ... */
 }
 
-/* Media query for mobile devices */
-@media screen and (max-width: 480px) {
-  /* Adjust styles for mobile devices here */
-  .navbar {
-      /* Example mobile styles for the navbar */
-      /* ... */
+/* Tablet view: two columns */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
   }
-
-  /* Adjust other elements' styles for mobile devices */
-  /* ... */
 }
+
+/* Desktop view: three columns */
+@media (min-width: 901px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 
 .animated-image {
   animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation to the image */
@@ -345,3 +342,36 @@ p {
   50% {
     transform: scale(0.8); /* Middle position (scaled down) */
   }
+
+/* 404 NOT FOUND */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.error-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
