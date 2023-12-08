@@ -1,0 +1,26 @@
+/* Default styles */
+/* ... */
+
+/* Media query for tablet */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for tablet devices here */
+    .navbar {
+        /* Example tablet styles for the navbar */
+        /* ... */
+    }
+
+    /* Adjust other elements' styles for tablet devices */
+    /* ... */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    /* Adjust styles for mobile devices here */
+    .navbar {
+        /* Example mobile styles for the navbar */
+        /* ... */
+    }
+
+    /* Adjust other elements' styles for mobile devices */
+    /* ... */
+}

@@ -30,13 +30,13 @@ html {
 
 /* Navbar */
 .navbar {
-  position: absolute;
+  position: relative;
   background-color: black;
   top: 0;
   left: 0;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
   color: whitesmoke;
 }
@@ -46,6 +46,21 @@ html {
 }
 .nav-links li {
   margin: 0 30px;
+}
+
+.navbar h1{
+left: 0;
+position: absolute;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s; /* Smooth color transition */
+}
+
+.nav-links li a:hover {
+  color: red; /* Change the color when hovering */
 }
 
 header {
@@ -222,6 +237,48 @@ margin-top: 30px;
     color: whitesmoke;
     margin: 20px auto;
     padding: 20px;
+  }
+
+  /* Default styles */
+/* ... */
+
+/* Media query for tablet */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for tablet devices here */
+  .navbar {
+      /* Example tablet styles for the navbar */
+      /* ... */
+  }
+
+  /* Adjust other elements' styles for tablet devices */
+  /* ... */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for mobile devices here */
+  .navbar {
+      /* Example mobile styles for the navbar */
+      /* ... */
+  }
+
+  /* Adjust other elements' styles for mobile devices */
+  /* ... */
+}
+
+.animated-image {
+  width: 200px;
+  height: 200px;
+  animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation to the image */
+}
+
+/* Define the keyframes for the animation */
+@keyframes scaleAnimation {
+  0%, 100% {
+    transform: scale(1); /* Start and end position (original size) */
+  }
+  50% {
+    transform: scale(0.8); /* Middle position (scaled down) */
   }
   
   
