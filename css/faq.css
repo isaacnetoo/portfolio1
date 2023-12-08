@@ -1,0 +1,155 @@
+/* Google fonts */
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Ubuntu:wght@300&display=swap);
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Inter SemiBold 600', Ubuntu;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li a {
+  color: white;
+}
+.active {
+  color: #fc036b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  color: whitesmoke;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links li {
+  margin: 0 30px;
+}
+
+.navbar h1{
+  left: 0;
+  position: absolute;
+  }
+
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s; /* Smooth color transition */
+}
+
+  .nav-links li a:hover {
+    color: red; /* Change the color when hovering */
+}
+
+.faq-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding-left: 20px;
+}
+
+.answer p {
+    margin: 0;
+    color: #666;
+}
+
+.faq-item:hover .answer {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-flex;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -0.5rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #07121d;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(-30px);
+    visibility: hidden;
+    transition: opacity 1s, transform 0.5s;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    background: black;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .footer p {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
