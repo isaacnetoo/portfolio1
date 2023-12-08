@@ -243,6 +243,7 @@ p {
     50% {
       transform: scale(0.8); /* Middle position (scaled down) */
     }
+}
 
     /* Default styles */
 /* ... */
@@ -254,6 +255,7 @@ p {
         /* Example tablet styles for the navbar */
         /* ... */
     }
+
 
     /* Adjust other elements' styles for tablet devices */
     /* ... */
