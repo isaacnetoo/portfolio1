@@ -124,19 +124,22 @@ html {
  display: flex;
  width: 100%;
  justify-content: center;
- padding: 250px;
  text-align: center;
- background-image: url(../img/everest.png);
+ background-color: white;
+ flex-direction: column;
+ align-items: flex-start;
 }
+
+
 
 .error-container h1 {
     font-size: 70px;
-    color: whitesmoke;
+    color: black;
 }
 
 .error-container p {
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 .error-container a {
@@ -146,4 +149,18 @@ html {
 
 .error-container a:hover {
     text-decoration: underline;
+}
+
+.ctn {
+  padding: 8px 15px;
+  background: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
 }

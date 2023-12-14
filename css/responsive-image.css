@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
     /* Adjust styles for smaller screens here */
     .navbar {
-      padding: 45px;
       position: relative;
       background-color: black;
       z-index: 2;
@@ -16,6 +15,7 @@
     .nav-links {
       align-items: flex-start;
       padding: 10px;
+      margin: 25px;
       display: flex;
       width: 100%; /* Ensure full width of the navbar */
     }
@@ -138,4 +138,40 @@
 
   .answer {
     padding-left: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .footer {
+    /* Adjust styles for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+    /* Add any other necessary adjustments */
+  }
+
+  .footer p {
+    /* Additional adjustments for paragraph elements inside the footer */
+    margin: 5px 0; /* Adjust margin for paragraphs */
+    /* Add any other necessary adjustments for paragraph styles */
+  }
+
+  .everest-content h1 {
+    font-size: 24px;
+  }
+
+  .everest-content p {
+    font-size: 14px;
+  }
+
+  .everest-content .ctn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  flight-content .col {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .flight-content .col h4,
+  .flight-content .col p {
+    text-align: center;
   }

@@ -154,3 +154,16 @@ h1 {
     padding: 20px;
   }
 
+  .ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+  }
