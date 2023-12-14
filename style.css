@@ -70,8 +70,8 @@ header {
   background-position: bottom;
   background-size: cover;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
+  flex-direction: column;
 }
 .header-content {
   margin-bottom: 150px;
