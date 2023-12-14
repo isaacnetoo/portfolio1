@@ -52,15 +52,16 @@ left: 0;
 position: absolute;
 }
 
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.5s; /* Smooth color transition */
-}
-
-  .nav-links li a:hover {
-    color: red; /* Change the color when hovering */
-}
+.nav-links li a[href*=".html"] {
+    color: white; 
+    font-weight: bold;
+  
+  }
+  
+    .nav-links li a:hover {
+      color: red; 
+  }
+  
 
 header {
   width: 100vw;

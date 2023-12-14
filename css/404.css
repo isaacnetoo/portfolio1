@@ -53,58 +53,21 @@ html {
   position: absolute;
   }
 
-  .nav-links li a[href*=".html"] {
+.nav-links li a[href*=".html"] {
     color: white; 
     font-weight: bold;
   
-  }
+}
   
-    .nav-links li a:hover {
+.nav-links li a:hover {
       color: red; 
   }
   
 
-.faq-container {
-    width: 700px;
-    margin: 0 auto;
-    padding: 100px;
-}
-
-h1 {
-    text-align: center;
-    margin: 50px;
-}
-
-.faq-item {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.question {
-    font-size: 20px;
-    margin: 0;
-    color: #333;
-    cursor: pointer;
-}
-
-.answer {
-    display: none;
-    padding-left: 20px;
-}
-
-.answer p {
-    margin: 0;
-    color: #666;
-}
-
-.faq-item:hover .answer {
-    display: block;
-}
-
 .dropdown {
     position: relative;
     display: inline-flex;
-  }
+}
   
   .dropdown-menu {
     position: absolute;
@@ -136,8 +99,11 @@ h1 {
     transform: translateY(0);
     visibility: visible;
   }
+  
 
-  .footer {
+/* Footer */
+
+.footer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -154,3 +120,30 @@ h1 {
     padding: 20px;
   }
 
+.error-container {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ padding: 250px;
+ text-align: center;
+ background-image: url(../img/everest.png);
+}
+
+.error-container h1 {
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.error-container p {
+    font-size: 18px;
+    color: white;
+}
+
+.error-container a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.error-container a:hover {
+    text-decoration: underline;
+}
