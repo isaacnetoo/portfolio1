@@ -72,7 +72,7 @@ html {
 
 h1 {
     text-align: center;
-    margin: 50px;
+    margin: 10px;
 }
 
 .faq-item {
@@ -167,3 +167,4 @@ h1 {
     width: 40px;
     cursor: pointer;
   }
+
