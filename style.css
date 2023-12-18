@@ -40,10 +40,14 @@ html {
   padding: 20px;
   color: whitesmoke;
 }
+
 .nav-links {
-  display: flex;
+  display: flex; /* Set it back to flex for row layout */
+  justify-content: center; /* Center items horizontally */
   align-items: center;
 }
+
+
 .nav-links li {
   margin: 0 30px;
 }
@@ -203,35 +207,31 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   align-items: flex-start;
   flex-direction: column-reverse;
 }
 
 .explore-content {
   width: 60%;
-  padding: 50px;
-  color: whitesmoke;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  padding: 15%;
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr; /* One column layout */
+  justify-items: center; /* Center content horizontally */
+  row-gap: 20px; /* Spacing between rows */
 }
 
-.explore-content h1 {
-  font-size: 7vmin;
+.explore-content h1,
+.explore-content p,
+.explore-content .ctn {
+  text-align: center; /* Center align text */
+  color: #07121d;
 }
 
 .explore-content line {
   margin-bottom: 50px;
 }
 
-.explore-content p {
-  color: rgb(221, 221, 221);
-}
-
-.explore-content .ctn {
-  margin-top: 40px;
-}
 
 /* Tours */
 .content-col {

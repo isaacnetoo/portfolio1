@@ -78,20 +78,27 @@
   }
 
   .explore-content {
-   display: flex;
-    margin-top: 50px; 
-    flex-direction: row;
-    justify-content: space-between
+    width: 60%;
+    padding: 15%;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr; /* One column layout */
+    justify-items: center; /* Center content horizontally */
+    row-gap: 20px; /* Spacing between rows */
   }
-
-  .explore-content h1 {
-    font-size: 28px; /* Increase font size for h1 */
-    margin-top: 60px;
+  
+  .explore-content h1,
+  .explore-content p,
+  .explore-content .ctn {
+    text-align: center; /* Center align text */
   }
-
-  .explore-content p {
-    display: inline; /* Change display property to inline */
-    margin: 0 10px; 
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .explore-content {
+      width: 90%; /* Adjust width for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
   }
 
   .tours {
