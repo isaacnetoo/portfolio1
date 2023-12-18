@@ -29,7 +29,7 @@ html {
 
 /* Navbar */
 .navbar {
-  position: relative;
+  position: fixed;
   background-color: black;
   top: 0;
   left: 0;
@@ -39,10 +39,13 @@ html {
   padding: 20px;
   color: whitesmoke;
 }
+
 .nav-links {
-  display: flex;
+  display: flex; /* Set it back to flex for row layout */
+  justify-content: center; /* Center items horizontally */
   align-items: center;
 }
+
 .nav-links li {
   margin: 0 30px;
 }

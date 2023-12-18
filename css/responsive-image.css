@@ -147,19 +147,6 @@
     padding-left: 10px; /* Adjust padding for smaller screens */
   }
 
-  .footer {
-    /* Adjust styles for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
-    font-size: 14px; /* Adjust font size for smaller screens */
-    /* Add any other necessary adjustments */
-  }
-
-  .footer p {
-    /* Additional adjustments for paragraph elements inside the footer */
-    margin: 5px 0; /* Adjust margin for paragraphs */
-    /* Add any other necessary adjustments for paragraph styles */
-  }
-
   .everest-content h1 {
     font-size: 24px;
   }
@@ -182,3 +169,43 @@
   .flight-content .col p {
     text-align: center;
   }
+
+  /* For tablets */
+@media screen and (max-width: 768px) {
+  /* Your tablet-specific styles here */
+
+  /* Example: Adjusting the navbar for tablets */
+  .navbar {
+    background-color: black; /* Change background color for tablets */
+  }
+
+  /* Example: Adjusting the navigation links for tablets */
+  .nav-links {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    /* Add any other necessary style adjustments */
+  }
+}
+
+.footer {
+  /* Adjust styles for smaller screens */
+  padding: 10px; /* Adjust padding for smaller screens */
+  font-size: 14px; /* Adjust font size for smaller screens */
+  /* Add any other necessary adjustments */
+}
+
+.footer p {
+  /* Additional adjustments for paragraph elements inside the footer */
+  margin: 5px 0; /* Adjust margin for paragraphs */
+  /* Add any other necessary adjustments for paragraph styles */
+}
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+  /* Example: Adjusting the footer for tablets */
+  .footer {
+    width: 100%; /* Ensure full width */
+    max-width: 100%; /* Allow maximum width */
+    padding: 20px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+  }
+}
