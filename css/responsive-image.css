@@ -17,12 +17,12 @@
       padding: 10px;
       margin: 25px;
       display: flex;
-      width: 100%; /* Ensure full width of the navbar */
+      width: 100%; 
     }
   
     .nav-links li {
       margin: 5px 0;
-      width: 100%; /* Ensure full width for list items */
+      width: 100%; 
       text-align: left; 
     }
   
@@ -33,14 +33,14 @@
     }
   
      .dropdown-menu {
-        position: static; /* Change position to static for dropdown items */
-        display: none; /* Hide dropdown items by default */
+        position: static; 
+        display: none; 
         width: 100%; 
         background-color: black;
       }
     
      .dropdown:hover .dropdown-menu {
-        display: block; /* Display dropdown items on hover */
+        display: block; 
         position: absolute;
         top: 100%; 
         left: 0;
@@ -64,17 +64,17 @@
   }
 
   .events .row {
-    flex-direction: column; /* Change the flex-direction to column */
+    flex-direction: column; 
   }
 
   .events .col {
-    width: 100%; /* Occupy full width of the container */
-    margin-bottom: 20px; /* Adjust margin between columns */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
   
   .explore {
-    padding: 20px; /* Increase padding for the explore section */
-    overflow: hidden; /* Ensure content doesn't overflow */
+    padding: 20px; 
+    overflow: hidden; 
   }
 
   .explore-content {
@@ -82,56 +82,55 @@
     padding: 15%;
     color: whitesmoke;
     display: grid;
-    grid-template-columns: 1fr; /* One column layout */
-    justify-items: center; /* Center content horizontally */
-    row-gap: 20px; /* Spacing between rows */
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    row-gap: 20px; 
   }
   
   .explore-content h1,
   .explore-content p,
   .explore-content .ctn {
-    text-align: center; /* Center align text */
+    text-align: center; 
   }
   
   /* Media query for smaller screens */
   @media screen and (max-width: 768px) {
     .explore-content {
-      width: 90%; /* Adjust width for smaller screens */
-      padding: 10px; /* Adjust padding for smaller screens */
+      width: 90%; 
+      padding: 10px; 
     }
   }
 
   .tours {
-    padding: 20px; /* Add padding to the tours section */
-    overflow: hidden; /* Ensure content doesn't overflow */
-}
+    padding: 20px; 
+    overflow: hidden; 
 
 .content-col {
-    text-align: center; /* Center-align text in content column */
+    text-align: center;
 }
 
 .content-col h1 {
-    font-size: 24px; /* Decrease font size for h1 */
-    margin-bottom: 20px; /* Add some space between h1 and paragraph */
+    font-size: 24px; 
+    margin-bottom: 20px; 
 }
 
 .content-col p {
-    margin-bottom: 20px; /* Add space between paragraphs */
+    margin-bottom: 20px; 
 }
 
 .image-gallery {
-    margin-top: 70px; /* Add margin-top to the image gallery */
+    margin-top: 70px; 
   }
 
 .image-gallery img {
-    max-width: 100%; /* Make images responsive */
-    margin-bottom: 20px; /* Add space between images */
+    max-width: 100%; 
+    margin-bottom: 20px; 
 }
 
 .faq-container {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 90%; 
     margin: 0 auto;
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 20px; 
   }
 
   .faq-item {
@@ -140,11 +139,11 @@
   }
 
   .question {
-    font-size: 18px; /* Decrease font size for smaller screens */
+    font-size: 18px; 
   }
 
   .answer {
-    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-left: 10px; 
   }
 
   .everest-content h1 {
@@ -176,36 +175,32 @@
 
   /* Example: Adjusting the navbar for tablets */
   .navbar {
-    background-color: black; /* Change background color for tablets */
+    background-color: black; 
   }
 
   /* Example: Adjusting the navigation links for tablets */
   .nav-links {
-    font-size: 16px; /* Adjust font size for smaller screens */
-    /* Add any other necessary style adjustments */
+    font-size: 16px; /
   }
 }
 
 .footer {
   /* Adjust styles for smaller screens */
-  padding: 10px; /* Adjust padding for smaller screens */
-  font-size: 14px; /* Adjust font size for smaller screens */
-  /* Add any other necessary adjustments */
+  padding: 10px; 
 }
 
 .footer p {
   /* Additional adjustments for paragraph elements inside the footer */
-  margin: 5px 0; /* Adjust margin for paragraphs */
-  /* Add any other necessary adjustments for paragraph styles */
+  margin: 5px 0; 
 }
 
 /* For tablets */
 @media screen and (max-width: 768px) {
   /* Example: Adjusting the footer for tablets */
   .footer {
-    width: 100%; /* Ensure full width */
-    max-width: 100%; /* Allow maximum width */
-    padding: 20px; /* Adjust padding */
-    font-size: 16px; /* Adjust font size */
+    width: 100%; 
+    max-width: 100%; 
+    padding: 20px; 
+    font-size: 16px;
   }
 }
