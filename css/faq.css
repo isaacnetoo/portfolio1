@@ -65,12 +65,19 @@ html {
     .nav-links li a:hover {
       color: red; 
   }
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
 
 .faq-container {
     width: 700px;
     margin: 0 auto;
     padding: 100px;
+    
 }
 
 h1 {
