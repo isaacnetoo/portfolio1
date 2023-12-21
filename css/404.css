@@ -42,8 +42,8 @@ html {
 }
 
 .nav-links {
-  display: flex; /* Set it back to flex for row layout */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
 }
 
@@ -124,8 +124,8 @@ html {
   }
 
   .error-container {
-    display: grid; /* Change from flex to grid */
-    place-items: center; /* Center content both horizontally and vertically */
+    display: grid; 
+    place-items: center; 
     text-align: center;
     background-color: white;
     

@@ -179,24 +179,20 @@
 @media screen and (max-width: 768px) {
   /* Your tablet-specific styles here */
 
-  /* Example: Adjusting the navbar for tablets */
   .navbar {
     background-color: black; 
   }
 
-  /* Example: Adjusting the navigation links for tablets */
   .nav-links {
     font-size: 16px; /
   }
 }
 
 .footer {
-  /* Adjust styles for smaller screens */
   padding: 10px; 
 }
 
 .footer p {
-  /* Additional adjustments for paragraph elements inside the footer */
   margin: 5px 0; 
 }
 

@@ -42,8 +42,8 @@ html {
 }
 
 .nav-links {
-  display: flex; /* Set it back to flex for row layout */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
 }
 
@@ -216,15 +216,15 @@ p {
   padding: 15%;
   color: rgb(0, 0, 0);
   display: grid;
-  grid-template-columns: 1fr; /* One column layout */
-  justify-items: center; /* Center content horizontally */
-  row-gap: 20px; /* Spacing between rows */
+  grid-template-columns: 1fr; 
+  justify-items: center; 
+  row-gap: 20px;
 }
 
 .explore-content h1,
 .explore-content p,
 .explore-content .ctn {
-  text-align: center; /* Center align text */
+  text-align: center; 
   color: #07121d;
 }
 

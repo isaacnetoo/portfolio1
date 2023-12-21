@@ -42,8 +42,8 @@ html {
 }
 
 .nav-links {
-  display: flex; /* Set it back to flex for row layout */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
 }
 

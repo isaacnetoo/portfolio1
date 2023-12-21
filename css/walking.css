@@ -42,8 +42,8 @@ html {
 }
 
 .nav-links {
-  display: flex; /* Set it back to flex for row layout */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
 }
 
@@ -250,10 +250,10 @@ margin-top: 30px;
 /* Define the keyframes for the animation */
 @keyframes scaleAnimation {
   0%, 100% {
-    transform: scale(1); /* Start and end position (original size) */
+    transform: scale(1); 
   }
   50% {
-    transform: scale(0.8); /* Middle position (scaled down) */
+    transform: scale(0.8); 
   }
   
   

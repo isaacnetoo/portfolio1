@@ -41,8 +41,8 @@ html {
 }
 
 .nav-links {
-  display: flex; /* Set it back to flex for row layout */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
 }
 
@@ -241,37 +241,11 @@ p {
   /* Define the keyframes for the animation */
   @keyframes scaleAnimation {
     0%, 100% {
-      transform: scale(1); /* Start and end position (original size) */
+      transform: scale(1); 
     }
     50% {
-      transform: scale(0.8); /* Middle position (scaled down) */
+      transform: scale(0.8); 
     }
 }
 
-    /* Default styles */
-/* ... */
 
-/* Media query for tablet */
-@media screen and (max-width: 768px) {
-    /* Adjust styles for tablet devices here */
-    .navbar {
-        /* Example tablet styles for the navbar */
-        /* ... */
-    }
-
-
-    /* Adjust other elements' styles for tablet devices */
-    /* ... */
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 480px) {
-    /* Adjust styles for mobile devices here */
-    .navbar {
-        /* Example mobile styles for the navbar */
-        /* ... */
-    }
-
-    /* Adjust other elements' styles for mobile devices */
-    /* ... */
-}
